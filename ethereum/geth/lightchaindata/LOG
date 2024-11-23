@@ -1,0 +1,32 @@
+=============== Nov 20, 2024 (WAT) ===============
+12:05:26.003980 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:05:26.010224 db@open opening
+12:05:26.011054 version@stat F·[] S·0B[] Sc·[]
+12:05:26.018303 db@janitor F·2 G·0
+12:05:26.018379 db@open done T·8.12232ms
+12:05:26.020038 db@close closing
+12:05:26.020392 db@close done T·337.77µs
+=============== Nov 20, 2024 (WAT) ===============
+12:06:26.428758 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:06:26.429146 version@stat F·[] S·0B[] Sc·[]
+12:06:26.429252 db@open opening
+12:06:26.429364 journal@recovery F·1
+12:06:26.432465 journal@recovery recovering @1
+12:06:26.439055 memdb@flush created L0@2 N·10 S·614B "H8\xb1..\xa0\x83.,v3":"r\x00\x00..\xa0\x83.,v5"
+12:06:26.440406 version@stat F·[1] S·614B[614B] Sc·[0.25]
+12:06:26.456306 db@janitor F·3 G·0
+12:06:26.456423 db@open done T·27.148912ms
+12:06:26.457166 db@close closing
+12:06:26.457499 db@close done T·330.179µs
+=============== Nov 20, 2024 (WAT) ===============
+12:21:15.860563 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+12:21:15.860909 version@stat F·[1] S·614B[614B] Sc·[0.25]
+12:21:15.860999 db@open opening
+12:21:15.861103 journal@recovery F·1
+12:21:15.864008 journal@recovery recovering @3
+12:21:15.869033 memdb@flush created L0@5 N·1 S·315B "eth..\xa0\x83.,v12":"eth..\xa0\x83.,v12"
+12:21:15.871468 version@stat F·[2] S·929B[929B] Sc·[0.50]
+12:21:15.890002 db@janitor F·4 G·0
+12:21:15.890082 db@open done T·29.066294ms
+12:21:15.890866 db@close closing
+12:21:15.891100 db@close done T·230.443µs

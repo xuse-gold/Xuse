@@ -1,0 +1,159 @@
+=============== Nov 20, 2024 (WAT) ===============
+23:32:48.501930 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:32:48.522985 db@open opening
+23:32:48.523766 version@stat F·[] S·0B[] Sc·[]
+23:32:48.544821 db@janitor F·2 G·0
+23:32:48.544892 db@open done T·21.87702ms
+23:32:48.545924 db@close closing
+23:32:48.546087 db@close done T·156.24µs
+=============== Nov 21, 2024 (WAT) ===============
+00:52:38.026676 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:52:38.026865 version@stat F·[] S·0B[] Sc·[]
+00:52:38.026917 db@open opening
+00:52:38.026974 journal@recovery F·1
+00:52:38.029825 journal@recovery recovering @1
+00:52:38.042888 memdb@flush created L0@2 N·12 S·766B "H\x8b\xfd..:'\x8e,v5":"\xd3\xe3R..ӓ\xd3,v2"
+00:52:38.044676 version@stat F·[1] S·766B[766B] Sc·[0.25]
+00:52:38.057881 db@janitor F·3 G·0
+00:52:38.057901 db@open done T·30.97467ms
+00:52:38.058460 db@close closing
+00:52:38.058647 db@close done T·184.95µs
+=============== Nov 21, 2024 (WAT) ===============
+00:55:29.357573 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+00:55:29.357810 version@stat F·[1] S·766B[766B] Sc·[0.25]
+00:55:29.357940 db@open opening
+00:55:29.358082 journal@recovery F·1
+00:55:29.359330 journal@recovery recovering @3
+00:55:29.367588 memdb@flush created L0@5 N·1 S·341B "eth..:'\x8e,v14":"eth..:'\x8e,v14"
+00:55:29.368699 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+00:55:29.396461 db@janitor F·4 G·0
+00:55:29.396531 db@open done T·38.57832ms
+00:55:29.397177 db@close closing
+00:55:29.397320 db@close done T·140.31µs
+=============== Nov 21, 2024 (WAT) ===============
+01:00:29.812334 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:00:29.812799 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+01:00:29.812886 db@open opening
+01:00:29.812991 journal@recovery F·1
+01:00:29.819423 journal@recovery recovering @6
+01:00:29.834349 memdb@flush created L0@8 N·1 S·341B "eth..:'\x8e,v16":"eth..:'\x8e,v16"
+01:00:29.840959 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+01:00:29.857699 db@janitor F·5 G·0
+01:00:29.857721 db@open done T·44.81946ms
+01:00:29.858385 db@close closing
+01:00:29.858523 db@close done T·134.28µs
+=============== Nov 21, 2024 (WAT) ===============
+01:12:45.467208 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:12:45.467449 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+01:12:45.467501 db@open opening
+01:12:45.467561 journal@recovery F·1
+01:12:45.469126 journal@recovery recovering @9
+01:12:45.473063 memdb@flush created L0@11 N·1 S·341B "eth..:'\x8e,v18":"eth..:'\x8e,v18"
+01:12:45.473892 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+01:12:45.486773 db@janitor F·6 G·0
+01:12:45.486833 db@open done T·19.32129ms
+01:12:45.486898 table@compaction L0·4 -> L1·0 S·1KiB Q·19
+01:12:45.487815 db@close closing
+01:12:45.494166 table@build created L1@14 N·12 S·766B "H\x8b\xfd..:'\x8e,v5":"\xd3\xe3R..ӓ\xd3,v2"
+01:12:45.494205 table@build exiting
+01:12:45.494218 table@build revert @14
+01:12:45.494441 db@close done T·6.62193ms
+=============== Nov 21, 2024 (WAT) ===============
+01:16:53.841796 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:16:53.841986 version@stat F·[4] S·1KiB[1KiB] Sc·[1.00]
+01:16:53.842029 db@open opening
+01:16:53.842153 journal@recovery F·1
+01:16:53.842965 journal@recovery recovering @12
+01:16:53.850019 memdb@flush created L0@14 N·1 S·341B "eth..:'\x8e,v20":"eth..:'\x8e,v20"
+01:16:53.854635 version@stat F·[5] S·2KiB[2KiB] Sc·[1.25]
+01:16:53.868433 db@janitor F·7 G·0
+01:16:53.868494 db@open done T·26.44092ms
+01:16:53.868630 table@compaction L0·5 -> L1·0 S·2KiB Q·21
+01:16:53.869265 db@close closing
+01:16:53.872573 table@build created L1@17 N·12 S·766B "H\x8b\xfd..:'\x8e,v5":"\xd3\xe3R..ӓ\xd3,v2"
+01:16:53.872607 table@build exiting
+01:16:53.872615 table@build revert @17
+01:16:53.872850 db@close done T·3.58344ms
+=============== Nov 21, 2024 (WAT) ===============
+01:24:16.886106 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:24:16.886323 version@stat F·[5] S·2KiB[2KiB] Sc·[1.25]
+01:24:16.886390 db@open opening
+01:24:16.886491 journal@recovery F·1
+01:24:16.888056 journal@recovery recovering @15
+01:24:16.892316 memdb@flush created L0@17 N·1 S·341B "eth..:'\x8e,v22":"eth..:'\x8e,v22"
+01:24:16.893649 version@stat F·[6] S·2KiB[2KiB] Sc·[1.50]
+01:24:16.913745 db@janitor F·8 G·0
+01:24:16.913813 db@open done T·27.407194ms
+01:24:16.913914 table@compaction L0·6 -> L1·0 S·2KiB Q·23
+01:24:16.914555 db@close closing
+01:24:16.917914 table@build created L1@20 N·12 S·766B "H\x8b\xfd..:'\x8e,v5":"\xd3\xe3R..ӓ\xd3,v2"
+01:24:16.917938 table@build exiting
+01:24:16.917944 table@build revert @20
+01:24:16.918154 db@close done T·3.596624ms
+=============== Nov 21, 2024 (WAT) ===============
+01:26:06.916999 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:26:06.917246 version@stat F·[6] S·2KiB[2KiB] Sc·[1.50]
+01:26:06.917305 db@open opening
+01:26:06.917396 journal@recovery F·1
+01:26:06.921001 journal@recovery recovering @18
+01:26:06.926593 memdb@flush created L0@20 N·1 S·341B "eth..:'\x8e,v24":"eth..:'\x8e,v24"
+01:26:06.928628 version@stat F·[7] S·2KiB[2KiB] Sc·[1.75]
+01:26:06.943629 db@janitor F·9 G·0
+01:26:06.943712 db@open done T·26.39385ms
+01:26:06.943831 table@compaction L0·7 -> L1·0 S·2KiB Q·25
+01:26:06.944360 db@close closing
+01:26:06.952008 table@build created L1@23 N·12 S·766B "H\x8b\xfd..:'\x8e,v5":"\xd3\xe3R..ӓ\xd3,v2"
+01:26:06.952034 table@build exiting
+01:26:06.952041 table@build revert @23
+01:26:06.952224 db@close done T·7.86285ms
+=============== Nov 21, 2024 (WAT) ===============
+01:33:17.959756 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:33:17.960096 version@stat F·[7] S·2KiB[2KiB] Sc·[1.75]
+01:33:17.960154 db@open opening
+01:33:17.960244 journal@recovery F·1
+01:33:17.962475 journal@recovery recovering @21
+01:33:17.967662 memdb@flush created L0@23 N·1 S·341B "eth..:'\x8e,v26":"eth..:'\x8e,v26"
+01:33:17.969529 version@stat F·[8] S·3KiB[3KiB] Sc·[2.00]
+01:33:17.996724 db@janitor F·10 G·0
+01:33:17.996802 db@open done T·36.635926ms
+01:33:17.996901 table@compaction L0·8 -> L1·0 S·3KiB Q·27
+01:33:17.999154 db@close closing
+01:33:18.007084 table@build created L1@26 N·12 S·766B "H\x8b\xfd..:'\x8e,v5":"\xd3\xe3R..ӓ\xd3,v2"
+01:33:18.007120 table@build exiting
+01:33:18.007129 table@build revert @26
+01:33:18.007261 db@write was delayed N·1 T·1.145649ms
+01:33:18.007371 db@close done T·8.218917ms
+=============== Nov 21, 2024 (WAT) ===============
+01:40:35.011232 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:40:35.011473 version@stat F·[8] S·3KiB[3KiB] Sc·[2.00]
+01:40:35.011525 db@open opening
+01:40:35.011611 journal@recovery F·1
+01:40:35.013407 journal@recovery recovering @24
+01:40:35.022681 memdb@flush created L0@26 N·1 S·341B "eth..:'\x8e,v28":"eth..:'\x8e,v28"
+01:40:35.025061 version@stat F·[9] S·3KiB[3KiB] Sc·[2.25]
+01:40:35.037987 db@janitor F·11 G·0
+01:40:35.038052 db@open done T·26.514011ms
+01:40:35.038507 table@compaction L0·9 -> L1·0 S·3KiB Q·29
+01:40:35.041435 db@close closing
+01:40:35.045279 table@build created L1@29 N·12 S·766B "H\x8b\xfd..:'\x8e,v5":"\xd3\xe3R..ӓ\xd3,v2"
+01:40:35.045309 table@build exiting
+01:40:35.045316 table@build revert @29
+01:40:35.045495 db@write was delayed N·1 T·1.273615ms
+01:40:35.045643 db@close done T·4.228671ms
+=============== Nov 21, 2024 (WAT) ===============
+01:41:16.551211 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+01:41:16.551489 version@stat F·[9] S·3KiB[3KiB] Sc·[2.25]
+01:41:16.551565 db@open opening
+01:41:16.551675 journal@recovery F·1
+01:41:16.552796 journal@recovery recovering @27
+01:41:16.558217 memdb@flush created L0@29 N·1 S·341B "eth..:'\x8e,v30":"eth..:'\x8e,v30"
+01:41:16.560162 version@stat F·[10] S·3KiB[3KiB] Sc·[2.50]
+01:41:16.593447 db@janitor F·12 G·0
+01:41:16.593500 db@open done T·41.919405ms
+01:41:16.593609 table@compaction L0·10 -> L1·0 S·3KiB Q·31
+01:41:16.595949 db@close closing
+01:41:16.598291 table@build created L1@32 N·12 S·766B "H\x8b\xfd..:'\x8e,v5":"\xd3\xe3R..ӓ\xd3,v2"
+01:41:16.598323 table@build exiting
+01:41:16.598331 table@build revert @32
+01:41:16.598490 db@write was delayed N·1 T·1.117965ms
+01:41:16.598608 db@close done T·2.660989ms

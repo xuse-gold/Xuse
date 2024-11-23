@@ -1,0 +1,27 @@
+{
+  "config": {
+    "chainId": 44,
+    "homesteadBlock": 0,
+    "eip150Block": 0,
+    "eip155Block": 0,
+    "eip158Block": 0,
+    "byzantiumBlock": 0,
+     "constantinopleBlock": 0,
+    "istanbulBlock": 0,
+    "berlinBlock": 0,
+    "londonBlock": 0,
+    "networkName": "Xuse"
+  },
+  "alloc": {
+    "0x0000000000000000000000000000000000000001": {
+    "balance": "1000000000000000000000000",
+    "tokenName": "XuseGold"
+  }
+  },
+    "coinbase": "0x0000000000000000000000000000000000000000",
+    "difficulty": "0x400",
+    "extraData": "",
+    "gasLimit": "0x8000000",
+    "nonce": "0x0000000000000042",
+    "timestamp": "0x0"
+}
